@@ -28,6 +28,8 @@ mainClass in (Compile, run) := Some( "xyz.hyperreal.sprayapp.SprayAppMain" )
 
 Revolver.settings
 
+seq(bintraySettings:_*)
+
 publishMavenStyle := true
 
 publishArtifact in Test := false
