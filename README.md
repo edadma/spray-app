@@ -4,10 +4,10 @@ a simple way to start a Spray application that also allows the JVM to exit in ca
 
 ## Example
 
-import spray.routing._
+	import spray.routing._
+	import xyz.hyperreal.sprayapp.SprayApp
 
-
-	object SprayAppMain extends SimpleRoutingApp {
+	object SprayAppMain extends SprayApp {
 
 		startServer( interface = "localhost", port = 8080 ) {
 

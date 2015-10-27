@@ -11,7 +11,7 @@ import spray.routing._
 import concurrent.duration._
 
 
-trait SimpleRoutingApp extends App with HttpService {
+trait SprayApp extends App with HttpService {
 
  @volatile private[this] var _refFactory: Option[ActorRefFactory] = None
 

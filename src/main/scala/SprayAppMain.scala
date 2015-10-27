@@ -3,7 +3,7 @@ package xyz.hyperreal.sprayapp
 import spray.routing._
 
 
-object SprayAppMain extends SimpleRoutingApp {
+object SprayAppMain extends SprayApp {
 	
 	startServer( interface = "localhost", port = 8080 ) {
 		
